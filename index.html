@@ -1,0 +1,487 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=El+Messiri">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lemonada">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lateef">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Scheherazade+New">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Blaka">
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family="Alkalami">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family="Almarai ">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family="Changa ">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family="Mada">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family="Lalezar">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family="Markazi+Text">
+
+
+        -->
+        <style>
+
+            @import url(https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Cairo&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=El+Messiri&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Amiri&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Lemonada&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Lateef&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Tajawal&display=swap); 
+            @import url(https://fonts.googleapis.com/css2?family=Blaka&display=swap);
+           
+            @import url(https://fonts.googleapis.com/css2?family=Alkalami&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Almarai&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Changa&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Mada&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Lalezar&display=swap);
+            @import url(https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap);
+
+            hr {
+                width: 10%;
+                border-style: dotted none none;
+                border-width: 3px;
+                border-color: red;
+            }
+
+            * { font-size: 14px; }
+            th, td { border: 1px solid black; padding: 4px; }
+            thead th { width: 40%; }
+
+            .NotoKufiArabic { font-family: "Noto Kufi Arabic" ; }
+            .Cairo { font-family: "Cairo" ; }
+            .ElMessiri { font-family: "El Messiri" ; }
+            .Amiri { font-family: "Amiri" ; }            
+            .Lemonada { font-family: "Lemonada" ; }
+            .Lateef { font-family: "Lateef" ; }
+            .ScheherazadeNew { font-family: "Scheherazade New" ; }
+            .Tajawal { font-family: "Tajawal" ; }
+            .Blaka { font-family: "Blaka" ; }
+
+            .Alkalami{ font-family: "Alkalami"  ; }
+            .Almarai { font-family: "Almarai" ; }
+            .Changa { font-family: "Changa" ; }
+            .Mada{ font-family: "Mada" ; }
+            .Lalezar{ font-family: "Lalezar"  ; }
+            .MarkaziText{ font-family: "Markazi Text" ; }
+
+            * {
+                font-family: 'Noto Kufi Arabic';
+            }
+        </style>
+    </head>
+
+    <body>
+        <h3>https://developers.google.com/fonts/docs/getting_started</h3>
+
+        <p>
+            use Link tag or import font:
+        </p>
+        <table>
+            <tr><th>Add link tag to head or @import into css</th><th>CSS Style</th><th>Sample</th></tr>
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css?family=Noto+Kufi+Arabic&display=swap); &lt/style&gt
+                </td>
+                <td> .NotoKufiArabic { font-family: "Noto Kufi Arabic"; } </td>
+                <td class="NotoKufiArabic">&ltp class="MarkaziText"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=Cairo&display=swap); &lt/style&gt
+                </td>
+                <td> .Cairo { font-family: "Cairo"; } </td>
+                <td class="Cairo">&ltp class="Cairo"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=El+Messiri"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=El+Messiri&display=swap); &lt/style&gt
+                </td>
+                <td> .ElMessiri { font-family: "El Messiri"; } </td>
+                <td class="ElMessiri">&ltp class="ElMessiri"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=Amiri&display=swap); &lt/style&gt
+                </td>
+                <td> .Amiri { font-family: "Amiri"; } </td>
+                <td class="Amiri">&ltp class="Amiri"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lemonada"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=Lemonada&display=swap); &lt/style&gt
+                </td>
+                <td> .Lemonada { font-family: "Lemonada"; } </td>
+                <td class="Lemonada">&ltp class="Lemonada"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lateef"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=Lateef&display=swap); &lt/style&gt
+                </td>
+                <td> .Lateef { font-family: "Lateef"; } </td>
+                <td class="Lateef">&ltp class="Lateef"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Scheherazade+New"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap); &lt/style&gt
+                </td>
+                <td> .ScheherazadeNew { font-family: "Scheherazade New"; } </td>
+                <td class="ScheherazadeNew">&ltp class="ScheherazadeNew"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal"> 
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=Tajawal&display=swap); &lt/style&gt 
+                </td>
+                <td> .Tajawal { font-family: "Tajawal"; } </td>
+                <td class="Tajawal">&ltp class="Tajawal"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Blaka"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=Blaka&display=swap); &lt/style&gt
+                </td>
+                <td> .Blaka { font-family: "Blaka"; } </td>
+                <td class="Blaka">&ltp class="Blaka"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alkalami"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=Alkalami&display=swap); &lt/style&gt
+                </td>
+                <td> .Alkalami { font-family: "Alkalami"; } </td>
+                <td class="Alkalami">&ltp class="Alkalami"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Almarai"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=Almarai&display=swap); &lt/style&gt
+                </td>
+                <td> .Almarai { font-family: "Almarai"; } </td>
+                <td class="Almarai">&ltp class="Almarai"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Changa"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=Changa&display=swap); &lt/style&gt
+                </td>
+                <td> .Changa { font-family: "Changa"; } </td>
+                <td class="Changa">&ltp class="Changa"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mada"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=Mada&display=swap); &lt/style&gt
+                </td>
+                <td> .Mada { font-family: "Mada"; } </td>
+                <td class="Mada">&ltp class="Mada"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lalezar"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=Lalezar&display=swap); &lt/style&gt
+                </td>
+                <td> .Lalezar { font-family: "Lalezar"; } </td>
+                <td class="Lalezar">&ltp class="Lalezar"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+
+            <tr>
+                <td>
+                    &ltlink rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Markazi+Text"&gt
+                    <hr>
+                    &ltstyle&gt @import url(https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap); &lt/style&gt
+                </td>
+                <td> .MarkaziText { font-family: "Markazi Text"; } </td>
+                <td class="MarkaziText">&ltp class="MarkaziText"&gtبسم الله الرحمن الرحيم&lt/p&gt</td>
+            </tr>
+        </table>    
+
+<p>
+
+    if font file stored in your web server:
+    <br>
+    src: url(https://your-web-site.com/your-font-path/font-name-with-extension) 
+
+
+</p>
+        <table>
+            <tr><td><pre>
+            /* arabic */
+            @font-face {
+            font-family: 'Noto Kufi Arabic';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/notokufiarabic/v15/CSRp4ydQnPyaDxEXLFF6LZVLKrodhu8t57o1kDc5Wh5v37bNlrU.woff2) format('woff2');
+            unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC, U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            </pre></td></tr><tr><td><pre>
+
+            /* arabic */
+            @font-face {
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/cairo/v20/SLXVc1nY6HkvangtZmpcWmhzfH5lWWgcQyyS4J0.woff2) format('woff2');
+            unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+            }
+            /* latin-ext */
+            @font-face {
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/cairo/v20/SLXVc1nY6HkvangtZmpcWmhzfH5lWWgcSCyS4J0.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            /* latin */
+            @font-face {
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/cairo/v20/SLXVc1nY6HkvangtZmpcWmhzfH5lWWgcRiyS.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            </pre></td></tr><tr><td><pre>
+
+            /* arabic */
+            @font-face {
+            font-family: 'El Messiri';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/elmessiri/v16/K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuXwe55ijDz-oQ.woff2) format('woff2');
+            unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+            }
+            /* cyrillic */
+            @font-face {
+            font-family: 'El Messiri';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/elmessiri/v16/K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuXwe55jjDz-oQ.woff2) format('woff2');
+            unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+            }
+            /* latin-ext */
+            @font-face {
+            font-family: 'El Messiri';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/elmessiri/v16/K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuXwe55pjDz-oQ.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            /* latin */
+            @font-face {
+            font-family: 'El Messiri';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/elmessiri/v16/K2FhfZBRmr9vQ1pHEey6GIGo8_pv3myYjuXwe55njDw.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            </pre></td></tr><tr><td><pre>
+
+            /* arabic */
+            @font-face {
+            font-family: 'Amiri';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/amiri/v24/J7aRnpd8CGxBHpUrtLMA7w.woff2) format('woff2');
+            unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+            }
+            /* latin-ext */
+            @font-face {
+            font-family: 'Amiri';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/amiri/v24/J7aRnpd8CGxBHpUgtLMA7w.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            /* latin */
+            @font-face {
+            font-family: 'Amiri';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/amiri/v24/J7aRnpd8CGxBHpUutLM.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            </pre></td></tr><tr><td><pre>
+
+            /* arabic */
+            @font-face {
+            font-family: 'Lemonada';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/lemonada/v20/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeutGm_-d7Z0.woff2) format('woff2');
+            unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+            }
+            /* vietnamese */
+            @font-face {
+            font-family: 'Lemonada';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/lemonada/v20/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeutGkf-d7Z0.woff2) format('woff2');
+            unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+            }
+            /* latin-ext */
+            @font-face {
+            font-family: 'Lemonada';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/lemonada/v20/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeutGkP-d7Z0.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+            }
+            /* latin */
+            @font-face {
+            font-family: 'Lemonada';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/lemonada/v20/0QI-MXFD9oygTWy_R-FFlwV-bgfR7QJGeutGnv-d.woff2) format('woff2');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+            }
+
+            </pre></td></tr><tr><td><pre>
+
+            /* arabic */
+            @font-face {
+            font-family: 'Lateef';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/lateef/v24/hESw6XVnNCxEvkb8pB2FVo8.woff2) format('woff2');
+            unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+            }
+            /* latin-ext */
+            @font-face {
+            font-family: 'Lateef';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/lateef/v24/hESw6XVnNCxEvkb8rx2FVo8.woff2) format('woff2');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+                }
+                /* latin */
+                @font-face {
+                font-family: 'Lateef';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://fonts.gstatic.com/s/lateef/v24/hESw6XVnNCxEvkb8oR2F.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                }
+
+                </pre></td></tr><tr><td><pre>
+
+                /* arabic */
+                @font-face {
+                font-family: 'Scheherazade New';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://fonts.gstatic.com/s/scheherazadenew/v12/4UaZrFhTvxVnHDvUkUiHg8jprP4DOwFmO24p.woff2) format('woff2');
+                unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+                }
+                /* latin-ext */
+                @font-face {
+                font-family: 'Scheherazade New';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://fonts.gstatic.com/s/scheherazadenew/v12/4UaZrFhTvxVnHDvUkUiHg8jprP4DOwpmO24p.woff2) format('woff2');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+                }
+                /* latin */
+                @font-face {
+                font-family: 'Scheherazade New';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://fonts.gstatic.com/s/scheherazadenew/v12/4UaZrFhTvxVnHDvUkUiHg8jprP4DOwRmOw.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                }
+
+                </pre></td></tr><tr><td><pre>
+
+                /* arabic */
+                @font-face {
+                font-family: 'Tajawal';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://fonts.gstatic.com/s/tajawal/v9/Iura6YBj_oCad4k1nzSBC45I.woff2) format('woff2');
+                unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+                }
+                /* latin */
+                @font-face {
+                font-family: 'Tajawal';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://fonts.gstatic.com/s/tajawal/v9/Iura6YBj_oCad4k1nzGBCw.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                }
+
+                </pre></td></tr><tr><td><pre>
+
+                /* arabic */
+                @font-face {
+                font-family: 'Blaka';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://fonts.gstatic.com/s/blaka/v3/8vIG7w8722p_6ndp0UHGFQ.woff2) format('woff2');
+                unicode-range: U+0600-06FF, U+200C-200E, U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE80-FEFC;
+                }
+                /* latin-ext */
+                @font-face {
+                font-family: 'Blaka';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://fonts.gstatic.com/s/blaka/v3/8vIG7w8722p_6ndi0UHGFQ.woff2) format('woff2');
+                unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+                }
+                /* latin */
+                @font-face {
+                font-family: 'Blaka';
+                font-style: normal;
+                font-weight: 400;
+                src: url(https://fonts.gstatic.com/s/blaka/v3/8vIG7w8722p_6nds0UE.woff2) format('woff2');
+                unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+                } 
+                </pre></td></tr>
+            </tr>
+        </table>
+    </body>
+</html>
